@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/style.css"> 
+<title>关于我们</title>
+<?php 
+require_once("includes/temfu.php");
+?>
+
+
+</head>
+
+<body>
+
+<div id="navs">
+   <div class="main">
+       <div class="ls">
+       <div class="logo"><img src="./images/logo.gif" alt="anyibao" >
+       </div>
+     <form class="kuang" action="" method="get">
+      <input  id="text" name="" type="text"  />
+      <input type="image" src="./images/sbar.gif" width="27" height="24" id="go" alt="Search" title="Search" /> 
+       </form>
+<p><a href="" target="_self">登录</a></p>
+      </div>
+
+<ul >
+<li ><a href="index.html" target="_self">首页</a></li>
+<li ><a href="gamecenter.html" target="_self">游戏中心</a></li>
+<li ><a href="partners.html" t.phparget="_blank">合作伙伴</a></li>
+<li ><a href="workt.html" target="_self">商务合作</a></li>
+<li ><a href="aboutus.html?meth=1" target="_self">关于我们</a></li>
+</ul>
+
+  </div>
+</div>
+<!-- 临时切换效果 -->
+
+<div id="ast">
+  </div>
+  <div id="cont">
+    <div class="left">
+      <ul>
+        <li><a href="aboutus.php?meth=1">关于我们</a></li>
+      <!--   <li><a href="#">投诉建议</a></li> -->
+       <li><a href="aboutus.php?meth=2">客户服务</a></li>
+      </ul>
+    </div>
+     <div class="right">
+       <ul class="fl"><li><?php echo $title;?></li></ul>
+       <p><?php echo $content;  ?></p>
+     <img id="ad"src="<?php echo $ppath; ?>">
+     </div>
+  </div>
+
+<div id="cd">
+  <div class="cdct">
+    <ul>
+      <li>&nbsp;&nbsp;<a href="">联系我们</a>  |</li>
+      <li>&nbsp;&nbsp;<a href="">诚聘英才</a>  |</li>
+      <li>&nbsp;&nbsp;<a href="">客服中心</a>  |</li>
+      <li>&nbsp;&nbsp;<a href="">用户协议</a>  </li>
+    </ul>
+    <br>
+    <p>版权所有：维罗塔(电子)上海有限公司    沪ICP证120652号    沪网文[2012]0657-214号   © 2012-2014 anyibao, Ltd. All Rights Reserved.</p>
+  </div>
+</div>
+
+</body>
+</html>
